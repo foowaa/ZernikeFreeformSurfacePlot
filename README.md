@@ -17,6 +17,6 @@ zernikeFromCoeff(coef, c, k, 0, titleSag, titleSurf)
 ![sag](./sag.png)
 ![surf](./surf.png)
 
-References: 
+>References: 
 [1] 刘军. 自由曲面在成像光学系统中的研究[D]. 中国科学院研究生院(长春光学精密机械与物理研究所), 2016.
 [2] 王超. 自由曲面表征函数及其应用研究[D]. 中国科学院研究生院(长春光学精密机械与物理研究所), 2014.
