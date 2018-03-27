@@ -1,8 +1,8 @@
 # ZernikeFreeformSurfacePlot
-Zernike FreeForm Surface Plotting. ʹ��`CodeV`��`Zemax`�Ż��õ���Zernikeϵ�����澵��
+Zernike FreeForm Surface Plotting. 使用`CodeV`或`Zemax`优化得到的Zernike系数仿真镜面
 
 function zernikeFromCoeff(coef, c, k, type, titleSag, titleSurf)
-����Ĳ�����c:���涥�㴦�����ʣ�k:Բ׶����ϵ����titleSag��ƽ��ͼ�ı��⣻titleSurf����άͼ�ı��⣻type��һ��zernike(0)��XY(1)
+求出的参数；c:曲面顶点处的曲率；k:圆锥曲面系数；titleSag：平面图的标题；titleSurf：三维图的标题；type：一般zernike(0)或XY(1)
 
 example:
 ```matlab
@@ -19,7 +19,7 @@ zernikeFromCoeff(coef, c, k, 0, titleSag, titleSurf)
 
 
 >References: 
-
->[1] ����. ���������ڳ����ѧϵͳ�е��о�[D]. �й���ѧԺ�о���Ժ(������ѧ���ܻ�е�������о���), 2016.
-
->[2] ����. �������������������Ӧ���о�[D]. �й���ѧԺ�о���Ժ(������ѧ���ܻ�е�������о���), 2014.
+>
+>[1] 刘军. 自由曲面在成像光学系统中的研究[D]. 中国科学院研究生院(长春光学精密机械与物理研究所), 2016.
+>
+>[2] 王超. 自由曲面表征函数及其应用研究[D]. 中国科学院研究生院(长春光学精密机械与物理研究所), 2014.
